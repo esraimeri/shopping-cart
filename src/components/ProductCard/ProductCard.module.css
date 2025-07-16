@@ -1,0 +1,47 @@
+.image {
+    max-width: 400px;
+}
+
+.productLink {
+    padding: 1rem;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.title {
+    color: black;
+    font-size: 22px;
+}
+
+.productLink button {
+    border: none;
+    color: white;
+    padding: 12px;
+    background-color: #202020;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    cursor: pointer;
+}
+
+.productLink button:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.buttonContainer {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    bottom: 3rem;
+    text-align: center;
+}
+
+.productLink .added {
+    background-color: lightgreen;
+    color: black;
+    font-size: 25px;
+    padding: 4px 12px;
+    transition: all 1s ease ;
+}

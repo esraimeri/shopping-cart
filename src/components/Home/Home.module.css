@@ -1,0 +1,67 @@
+.main {
+    min-height: 88.3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #E8E0D3;
+}
+
+.main h1 {
+    font-size: 80px;
+    font-weight: 900;
+    padding: 2rem;
+    background-color: #E8E0D3;
+    vertical-align: middle;
+    align-self: stretch;
+    text-align: center;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    min-height: 100%;
+    max-width: 1200px;
+}
+
+.heroImg {
+    width: 50vw;
+    min-height: 500px;
+    background: url(../../assets/wp.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section {
+    padding: 2rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.section h2 {
+    font-size: 2.2rem;
+    margin: 0;
+}
+
+.para {
+    color: rgb(84, 84, 84);
+    margin: 0;
+    max-width: 400px;
+}
+
+.main a {
+    color: white;
+    background-color: #212121;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    width: fit-content;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.main a:hover {
+    background-color: #fff;
+    color: black;
+    opacity: 0.85;
+} 

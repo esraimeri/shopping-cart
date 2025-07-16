@@ -1,0 +1,81 @@
+@font-face{
+    font-family: "Suisse Int'l Mono";
+    src: url("../fonts/008acf881eac29f0c639b8e2345a1764.eot");
+    src: url("../fonts/008acf881eac29f0c639b8e2345a1764.eot?#iefix")format("embedded-opentype"),
+        url("../fonts/008acf881eac29f0c639b8e2345a1764.woff")format("woff"),
+        url("../fonts/008acf881eac29f0c639b8e2345a1764.woff2")format("woff2"),
+        url("../fonts/008acf881eac29f0c639b8e2345a1764.ttf")format("truetype"),
+        url("../fonts/008acf881eac29f0c639b8e2345a1764.svg#Suisse Int'l Mono")format("svg");
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: 'Formula Condensed Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Formula Condensed Light'), url('../fonts/FormulaCondensed-Light.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Formula Condensed Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Formula Condensed Bold'), url('../fonts/FormulaCondensed-Bold.woff') format('woff');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, li {
+    font-family: 'Formula Condensed Bold', sans-serif, serif;
+}
+
+h1 {
+    letter-spacing: 5px;
+}
+h2 {
+    letter-spacing: 2px;
+}
+
+h3 {
+    letter-spacing: 1px;
+}
+
+li {
+    letter-spacing: 2px;
+}
+
+p, a, input, button {
+    font-family: "Suisse Int'l Mono";
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+.overlay {
+    position: fixed; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 3;
+    animation: overlay 0.5s ease alternate;
+}
+
+@keyframes overlay {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
